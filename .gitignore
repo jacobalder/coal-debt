@@ -1,4 +1,12 @@
+# Ignore R things
 .Rproj.user
+.Rproj
 .Rhistory
 .RData
 .Ruserdata
+
+# Ignore Mac system files
+.DS_store
+
+# Ignore Temp files
+temp/
