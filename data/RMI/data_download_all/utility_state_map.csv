@@ -1,0 +1,192 @@
+respondent_id,utility_name,state
+2,Alabama Power Co.,Alabama
+3,Alaska Electric Light & Power Co.,Alaska
+6,Appalachian Power Co.,Virginia
+6,Appalachian Power Co.,West Virginia
+7,Arizona Public Service Co.,Arizona
+8,"Entergy Arkansas, Inc.",Arkansas
+8,"Entergy Arkansas, Inc.",Tennessee
+9,Atlantic City Electric Co.,New Jersey
+10,Baltimore Gas & Electric Co.,Maryland
+11,Emera Maine,Maine
+531,Basin Electric Power Cooperative,North Dakota
+531,Basin Electric Power Cooperative,Wyoming
+17,"Duke Energy Progress, LLC",North Carolina
+17,"Duke Energy Progress, LLC",South Carolina
+19,Central Hudson Gas & Electric Co.,New York
+22,Cleco Power LLC,Louisiana
+23,Central Maine Power Co.,Maine
+403,"Cheyenne Light, Fuel & Power Co.",Wyoming
+202,"Chugach Electric Association, Inc.",Alaska
+27,"Duke Energy Ohio, Inc.",Ohio
+30,The Cleveland Electric Illuminating Co.,Ohio
+32,Commonwealth Edison Co.,Illinois
+39,"Connecticut Light & Power Co., The",Connecticut
+36,"Consolidated Edison Co. of New York, Inc.",New York
+40,Consolidated Water Power Co.,Wisconsin
+41,Consumers Energy Co.,Michigan
+42,The Dayton Power & Light Co.,Ohio
+43,Delmarva Power & Light Co.,Delaware
+43,Delmarva Power & Light Co.,Maryland
+44,DTE Electric Co.,Michigan
+45,"Duke Energy Carolinas, LLC",North Carolina
+45,"Duke Energy Carolinas, LLC",South Carolina
+46,Duquesne Light Co.,Pennsylvania
+49,El Paso Electric Co.,New Mexico
+49,El Paso Electric Co.,Texas
+51,The Empire District Electric Co.,Arkansas
+51,The Empire District Electric Co.,Kansas
+51,The Empire District Electric Co.,Missouri
+51,The Empire District Electric Co.,Oklahoma
+406,"Fall River Electric Cooperative, Inc",Idaho
+406,"Fall River Electric Cooperative, Inc",Montana
+406,"Fall River Electric Cooperative, Inc",Wyoming
+54,Fitchburg Gas & Electric Light Co.,Massachusetts
+407,"Florida Keys Electric Cooperative Assoc., Inc.",Florida
+56,Florida Power & Light Co.,Florida
+55,"Duke Energy Florida, LLC",Florida
+5,The Allegheny Generating Co.,Illinois
+5,The Allegheny Generating Co.,Maryland
+5,The Allegheny Generating Co.,Michigan
+5,The Allegheny Generating Co.,New Jersey
+5,The Allegheny Generating Co.,Ohio
+5,The Allegheny Generating Co.,Pennsylvania
+57,Georgia Power Co.,Georgia
+61,Green Mountain Power Corp.,Vermont
+62,Gulf Power Co.,Florida
+300,"Hawaii Electric Light Co., Inc.",Hawaii
+70,Idaho Power Co.,Idaho
+70,Idaho Power Co.,Oregon
+74,Indianapolis Power & Light Co.,Indiana
+73,Indiana Michigan Power Co.,Indiana
+73,Indiana Michigan Power Co.,Michigan
+281,Interstate Power & Light Co.,Iowa
+77,Jersey Central Power & Light Co.,New Jersey
+79,Evergy Metro,Kansas
+79,Evergy Metro,Missouri
+80,Kansas Gas & Electric Co.,Kansas
+82,Kentucky Utilities Co.,Kentucky
+82,Kentucky Utilities Co.,Tennessee
+82,Kentucky Utilities Co.,Virginia
+83,Kingsport Power Co.,Tennessee
+84,Lockhart Power Co.,South Carolina
+63,"Entergy Gulf States Louisiana, L.L.C.",Louisiana
+88,Louisville Gas & Electric Co.,Kentucky
+89,Madison Gas & Electric Co.,Wisconsin
+93,Massachusetts Electric Co.,Massachusetts
+94,Maui Electric Co.,Hawaii
+95,"MDU Resources Group, Inc.",Montana
+95,"MDU Resources Group, Inc.",North Dakota
+95,"MDU Resources Group, Inc.",South Dakota
+95,"MDU Resources Group, Inc.",Wyoming
+210,MidAmerican Energy Co.,Iowa
+210,MidAmerican Energy Co.,Illinois
+210,MidAmerican Energy Co.,South Dakota
+96,Metropolitan Edison Co.,Pennsylvania
+213,Midwest Energy Inc.,Kansas
+98,"ALLETE, Inc.",Minnesota
+100,"Entergy Mississippi, Inc.",Mississippi
+99,Mississippi Power Co.,Mississippi
+101,Monongahela Power Company,West Virginia
+414,"Moon Lake Electric Association, Inc.",Colorado
+414,"Moon Lake Electric Association, Inc.",Utah
+224,Village of Morrisville Water & Light Department,Vermont
+105,Mt. Carmel Public Utility Co,Illinois
+416,Nantucket Electric Co.,Massachusetts
+107,The Narragansett Electric Co.,Rhode Island
+108,Nevada Power Co.,Nevada
+114,"Entergy New Orleans, Inc.",Louisiana
+115,New York State Electric & Gas Corp.,New York
+117,Niagara Mohawk Power Corp.,New York
+418,"North Central Power Co., Inc.",Wisconsin
+119,Northern Indiana Public Service Co.,Indiana
+121,Northern States Power Co. (Wisconsin),Michigan
+121,Northern States Power Co. (Wisconsin),Wisconsin
+120,Northern States Power Co. (Minnesota),Minnesota
+120,Northern States Power Co. (Minnesota),North Dakota
+120,Northern States Power Co. (Minnesota),South Dakota
+122,NorthWestern Corp.,South Dakota
+123,Northwestern Wisconsin Electric Co.,Minnesota
+123,Northwestern Wisconsin Electric Co.,Wisconsin
+205,Oconto Electric Cooperative,Wisconsin
+126,Ohio Edison Co.,Ohio
+127,Ohio Power Co.,Ohio
+128,Ohio Valley Electric Corp.,Ohio
+130,Oklahoma Gas & Electric Co.,Arkansas
+130,Oklahoma Gas & Electric Co.,Oklahoma
+131,"Orange & Rockland Utilities, Inc",New York
+132,Otter Tail Power Co.,Minnesota
+132,Otter Tail Power Co.,North Dakota
+132,Otter Tail Power Co.,South Dakota
+133,PG&E,California
+134,PacifiCorp,California
+134,PacifiCorp,Idaho
+134,PacifiCorp,Oregon
+134,PacifiCorp,Utah
+134,PacifiCorp,Washington
+134,PacifiCorp,Wyoming
+136,Pennsylvania Electric Co.,New York
+136,Pennsylvania Electric Co.,Pennsylvania
+138,PPL Electric Utilities Corp.,Pennsylvania
+137,Pennsylvania Power Co.,Pennsylvania
+135,PECO Energy Co.,Pennsylvania
+422,Pike County Light & Power Co.,Pennsylvania
+140,Pioneer Power & Light Co.,Wisconsin
+141,Portland General Electric Co.,Oregon
+142,The Potomac Edison Co.,Maryland
+142,The Potomac Edison Co.,West Virginia
+143,Potomac Electric Power Co.,Washington DC
+143,Potomac Electric Power Co.,Maryland
+145,Public Service Co. of Colorado,Colorado
+144,"Duke Energy Indiana, LLC",Indiana
+146,Public Service Co. of New Hampshire,New Hampshire
+147,Public Service Co. of New Mexico,New Mexico
+148,Public Service Co. of Oklahoma,Oklahoma
+149,Public Service Electric & Gas Co.,New Jersey
+150,"Puget Sound Energy, Inc.",Washington
+151,Rochester Gas & Electric Corp.,New York
+152,Rockland Electric Co.,New Jersey
+155,San Diego Gas & Electric Co.,California
+157,Sierra Pacific Power Co.,Nevada
+159,South Carolina Electric & Gas Co.,South Carolina
+161,Southern California Edison Co.,California
+163,Southern Indiana Gas & Electric Co.,Indiana
+164,Southwestern Electric Power Co.,Arkansas
+164,Southwestern Electric Power Co.,Louisiana
+164,Southwestern Electric Power Co.,Texas
+166,Southwestern Public Service Co.,New Mexico
+166,Southwestern Public Service Co.,Texas
+167,"Superior Water, Light & Power Co.",Wisconsin
+170,Tampa Electric Co.,Florida
+175,"Toledo Edison Co., The",Ohio
+428,"UGI Utilities, Inc.",Pennsylvania
+177,Ameren Missouri,Missouri
+179,The United Illuminating Co.,Connecticut
+429,"United Power, Inc.",Colorado
+12,"Black Hills Power, Inc.",Montana
+12,"Black Hills Power, Inc.",South Dakota
+12,"Black Hills Power, Inc.",Wyoming
+65,"Hawaiian Electric Co., Inc.",Hawaii
+181,Upper Peninsula Power Co.,Michigan
+288,"UNS Electric, Inc.",Arizona
+186,Dominion Energy Virginia,North Carolina
+186,Dominion Energy Virginia,Virginia
+246,"Washington Electric Cooperative, Inc.",Vermont
+187,Avista Corp.,Idaho
+187,Avista Corp.,Montana
+187,Avista Corp.,Washington
+188,WEST PENN POWER COMPANY,Pennsylvania
+192,Wheeling Power Co.,West Virginia
+193,Wisconsin Electric Power Co.,Michigan
+193,Wisconsin Electric Power Co.,Wisconsin
+194,Wisconsin Power & Light Co.,Wisconsin
+195,Wisconsin Public Service Corp.,Wisconsin
+81,Kentucky Power Co.,Kentucky
+191,Evergy Kansas Central,Kansas
+176,Tucson Electric Power Co.,Arizona
+290,"Unitil Energy Systems, Inc.",New Hampshire
+59,Liberty Utilities (Granite State Electric) Corp.,New Hampshire
+226,Deseret Generation & Transmission Cooperative,Colorado
+309,NSTAR Electric Co.,Massachusetts
+315,"Entergy Texas, Inc.",Texas
+432,"Black Hills/Colorado Electric Utility Co., LP",Colorado
