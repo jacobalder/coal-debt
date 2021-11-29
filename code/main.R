@@ -10,7 +10,8 @@
 if(!require("pacman")) install.packages("pacman")
 pacman::p_load(arm,car,data.table,DataCombine,dplyr,estimatr,fixest,ggplot2,gridExtra,
                gtsummary,haven,here,lmtest,mediation,modelsummary,parallel,plm,psych,
-               rdrobust,rio,sandwich,stargazer,survival,survminer,tictoc,tidyverse)
+               rdrobust,rio,sandwich,stargazer,SnowballC,survival,survminer,tictoc,
+               tidyverse,tm)
 
 ## SET WORKING DIRECTORY
 # Set working directory (where you cloned the repo)
