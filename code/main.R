@@ -23,12 +23,10 @@ fig_path = "figures"
 if(!getwd() == file.path(my_dir,coal_debt)){setwd(file.path(my_dir,coal_debt))}
 getwd()
 set.seed(101)
+theme_set(theme_classic(base_size=12))
 
 ## LOAD FILES
 source(file.path(my_dir,coal_debt,code_path,"data.load.R"))
 
-## CLEAN FILES
-source(file.path(my_dir,coal_debt,code_path,"data.clean.R"))
-
 ## SUMMARY STATISTICS
-source(file.path(my_dir,coal_debt,code_path,"replication.sum_stats.R"))
+source(file.path(my_dir,coal_debt,code_path,"data.sum_stats.R"))

@@ -1,6 +1,7 @@
 ################################################################################
 # COAL DEBT SECURITIZATION
 # Purpose: Load data sources
+# Dependencies: data.sum_stats.R
 # Data Sources: RMI Utility Transition Hub, Last Updated Nov. 20, 2021
 #               https://utilitytransitionhub.rmi.org/data-download/
 #               
@@ -17,4 +18,4 @@ for(i in contents) {
 }
 
 # Clean up
-rm(i, rmi_path)
+rm(i, contents, rmi_path)

@@ -1,6 +1,7 @@
 ################################################################################
 # COAL DEBT SECURITIZATION
 # Purpose: Text Analysis
+# Learning:   https://data.library.virginia.edu/reading-pdf-files-into-r-for-text-mining/
 # Data Sources: 
 #               
 #               
@@ -30,3 +31,34 @@ sort(apply(ft.tdm, 1, sum), decreasing = TRUE)
 
 findAssocs(bills.tdm, "secur", .85)
 findAssocs(bills.tdm, "public", .85)
+
+# Make a dendogram
+bills.tdm.d = removeSparseTerms(sparse = 0.00000000002, bills.tdm)
+
+# Create tdm matrix
+bills.tdm.m <- as.matrix(bills.tdm.d)
+
+# Create dist
+bills.dist <- dist(bills.tdm.m)
+
+# Create hc
+hc <- hclust(bills.dist)
+
+# Plot the dendrogram
+plot(hc)
+
+
+## 
+# Create associations
+associations <- findAssocs(bills.tdm, "secur", 0.2)
+
+# View the venti associations
+associations
+
+# Create associations_df
+associations_df <- list_vect2df(associations, col2 = "word", col3 = "score")
+
+# Plot the associations_df values
+ggplot(associations_df, aes(score, word)) + 
+  geom_point(size = 3) + 
+  theme_gdocs()
