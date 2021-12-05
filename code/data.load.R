@@ -9,10 +9,12 @@
 ################################################################################
 rmi.files = file.path(my_dir,coal_debt,data_path,paste0("RMI/data_download_all"))
 ncsl.files = file.path(my_dir,coal_debt,data_path,paste0("NCSL"))
+saber.files = file.path(my_dir,coal_debt,data_path,paste0("SABER"))
 
 # Make a vector of .csv files in the folder
 contents.rmi = list.files(rmi.files, pattern = "csv", full.names = F)
 contents.ncsl = list.files(ncsl.files, pattern = "csv", full.names = F)
+contents.saber = list.files(saber.files, pattern = "csv", full.names = F)
 
 # Assign rmi vector to data.table
 for(i in contents.rmi) {
@@ -24,6 +26,12 @@ for(i in contents.rmi) {
 for(i in contents.ncsl) {
   assign(gsub('.csv','', i),
          fread(file.path(ncsl.files,i))) # Read in the downloaded files
+}
+
+# Assign saber vector to data.table
+for(i in contents.saber) {
+  assign(gsub('.csv','', i),
+         fread(file.path(saber.files,i))) # Read in the downloaded files
 }
 
 # Clean up

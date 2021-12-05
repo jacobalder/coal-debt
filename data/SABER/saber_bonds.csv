@@ -1,0 +1,76 @@
+﻿date,issuer,state,rating,size_mm,lead_underwriter,financial_advisor,use_of_proceeds
+11/1/97,California Infrastructure and Economic Development Bank Special Purpose Trust PG&E-1 (Pacific Gas & Electric),CA,Aaa/AAA/AAA,2901,MSDW/LEH,None,Stranded Costs
+12/1/97,California Infrastructure and Economic Development Bank Special Purpose Trust SCE-1 (Southern California Edison),CA,Aaa/AAA/AAA,2463,SSB/LEH,None,Stranded Costs
+12/1/97,"California Infrastructure and Economic Development Bank Special Purpose Trust SDG&E,-1 (San Diego Gas & Electric)",CA,Aaa/AAA/AAA,657.9,MSDW/LEH,None,Stranded Costs
+12/1/98,MPC Natural Gas Funding Trust 1998-1 (Montana Power),MT,Aaa/AAA/AAA,62.7,GS,None,Stranded Costs
+12/1/98,ComEd Transitional Funding Trust (Commonwealth Edison),IL,Aaa/AAA/AAA,3400,GS/ML/SSB,None,Stranded Costs
+12/1/98,Illinois Power Special Purpose Trust (Illinois Power),IL,Aaa/AAA/AAA,864,ML/SSB,None,Stranded Costs
+3/1/99,PECO Energy Transition Trust (PECO Energy),PA,Aaa/AAA/AAA,4000,SSB,None,Stranded Costs
+4/1/99,Sierra Pacific,CA,Aaa/AAA/AAA,24,GS,None,Stranded Costs
+7/1/99,Massachusetts RRB Special Purpose Trust BEC-1 (Boston Edison),MA,Aaa/AAA/AAA,725,LEH/GS,None,Stranded Costs
+7/1/99,PP&L Transition Bond Company LLC (Pennsylvania Power & Light),PA,Aaa/AAA/AAA,2420,MSDW,None,Stranded Costs
+11/1/99,"West Penn Funding, LLC (West Penn Power)",PA,Aaa/AAA/AAA,600,MSDW,None,Stranded Costs
+4/1/00,PECO Energy Transition Trust (PECO Energy),PA,Aaa/AAA/AAA,1000,SSB,None,Stranded Costs
+1/1/01,PSE&G Transition Funding LLC (Public Service Electric & Gas),NJ,Aaa/AAA/AAA,2525,LEH,Bear Stearns,Stranded Costs
+2/1/01,PECO Energy Transition Trust (PECO Energy),PA,Aaa/AAA/AAA,805.5,SSB,None,Stranded Costs
+3/1/01,The Detroit Edison Securitization Funding LLC,MI,Aaa/AAA/AAA,1750,SSB,First Acceptance Corp.,Stranded Costs
+3/1/01,Connecticut RRB Special Purpose Trust CL&P-1 (Connecticut Light and Power),CT,Aaa/AAA/AAA,1438.4,LEH/SSB,None,Stranded Costs
+4/1/01,PSNH Funding LLC (Public Service Company of New Hampshire),NH,Aaa/AAA/AAA,525,SSB/BS,State Treasurer Office (PRAG),Stranded Costs
+5/1/01,Massachusetts RRB Special Purpose Trust WMECO-1 (Western Massachusetts Electric),MA,Aaa/AAA/AAA,155,LEH/SSB,None,Stranded Costs
+10/1/01,"CenterPoint Energy Transition Bond Company I, LLC",TX,Aaa/AAA/AAA,748.9,ML,Saber Partners,Stranded Costs
+10/1/01,Consumers Funding LLC (Consumers Energy),MI,Aaa/AAA/AAA,468.59,MS,First Acceptance Corp.,Stranded Costs
+1/1/02,PSNH Funding LLC 2 (Public Service Company of New Hampshire),NH,Aaa/AAA/AAA,50,SSB,None,Stranded Costs
+1/1/02,CPL Transition Funding LLC (Central Power & Light),TX,Aaa/AAA/AAA,797.3,GS,Saber Partners,Stranded Costs
+6/1/02,JCP&L Transition Funding LLC (Jersey Central Power & Light),NJ,Aaa/AAA/AAA,320,GS,Bear Stearns,Stranded Costs
+12/1/02,Atlantic City Electric Transition Funding LLC (Atlantic City Electric),NJ,Aaa/AAA/AAA,440,MS,Bear Stearns,Stranded Costs
+8/1/03,Oncor Electric Delivery Transition Bond Company LLC,TX,Aaa/AAA/AAA,500,LEH/MS,Saber Partners,Stranded Costs
+12/1/03,Atlantic City Electric Transition Funding LLC (Atlantic City Electric),NJ,Aaa/AAA/AAA,152,MS,Bear Stearns,Stranded Costs
+5/1/04,TXU Electric Delivery Transition Bond Company LLC,TX,Aaa/AAA/AAA,789.78,ML/WAC,Saber Partners,Stranded Costs
+7/1/04,Rockland Electric Company Transition Funding LLC (Rockland Electric),NJ,Aaa/AAA/AAA,46.3,Citi/GS,Bear Stearns,Stranded Costs
+1/1/05,PG&E Energy Recovery Funding LLC (Pacific Gas & Electric),CA,Aaa/AAA/AAA,1887.9,MS,Bear Stearns,Stranded Costs
+2/1/05,Massachusetts RRB Special Purpose Trust 2005-1 (Boston Edison and Commonwealth Electric),MA,Aaa/AAA,674.5,GS/LEH,None,Stranded Costs
+9/1/05,PSE&G Transition Funding II LLC (Public Service Electric & Gas),NJ,Aaa/AAA/AAA,102.7,CSFB/Bar,Saber Partners,Deferred Balances
+9/1/05,"West Penn Power, Ser. 2005-A",PA,Aaa/AAA/AAA,115,CSFB,None,Stranded Costs
+10/1/05,PG&E Energy Recovery Funding LLC (Pacific Gas & Electric),CA,Aaa/AAA/AAA,844.5,MS/Bar/Citi,Bear Stearns,Regulatory Asset
+12/1/05,"CenterPoint Energy Transition Bond Company II, LLC",TX,Aaa/AAA/AAA,1851,CSFB/LEH/RBS,Saber Partners,Stranded Costs
+8/1/06,JCP&L Transition Funding II LLC (Jersey Central Power & Light),NJ,Aaa/AAA/AAA,182.4,GS/Citi/LEH,Bear Stearns,Deferred Balances
+Expired,Wisconsin Electric Power,WI,,450,-,Saber Partners,Environmental
+10/1/06,AEP Texas Central Transition Funding II LLC,TX,Aaa/AAA/AAA,1739.7,CS/RBS/JP,Saber Partners,Stranded Costs
+4/1/07,MP Environmental Funding LLC (Monongahela Power),WV,Aaa/AAA/AAA,344.5,FAC/Loop,Saber Partners,Environmental
+4/1/07,PE Environmental Funding LLC (Potomac Edison),WV,Aaa/AAA/AAA,114.8,FAC/Loop,Saber Partners,Environmental
+5/1/07,FPL Recovery Funding LLC (Florida Power & Light),FL,Aaa/AAA/AAA,652,WAC,Saber Partners,Storm Recovery
+6/1/07,RSB BondCo LLC (Baltimore Gas & Electric),MD,Aaa/AAA/AAA,623.2,Bar/Citi/RBS/MS,PRAG,Deferred Balances
+6/1/07,"Entergy Gulf States Reconstruction Funding I, LLC",TX,Aaa/AAA/AAA,329.5,MS,None,Storm Recovery
+1/1/08,"CenterPoint Energy Transition Bond III, LLC",TX,Aaa/AAA/AAA,488.47,Citi/CS/MS,None,Stranded Costs
+2/1/08,Cleco Katrina/Rita Hurricane Recovery Funding LLC,LA,Aaa/AAA/AAA,180.6,CS,Pathfinder,Storm Recovery
+7/1/08,Louisiana Public Facilities Authority (Louisiana Utilities Restoration Corporation/ELL),LA,Aaa/AAA/AAA,687.7,Citi/JP,Pathfinder,Storm Recovery
+7/1/08,Louisiana Public Facilities Authority (Louisiana Utilities Restoration Corporation/EGSL),LA,Aaa/AAA/AAA,278.4,Citi/JP,Pathfinder,Storm Recovery
+10/1/09,"Entergy Texas Restoration Funding, LLC",TX,Aaa/AAA/AAA,545.9,MS/Citi,"First Southwest (Not full FA/""Pricing Advisor"" Only)",Recovery
+11/1/09,"CenterPoint Energy Restoration Bond Company, LLC",TX,Aaa/AAA/AAA,664.86,GS/Citi,"First Southwest (Not full FA/""Pricing Advisor"" Only)",Recovery
+12/1/09,PE Environmental Funding LLC (Potomac Edison),WV,Aaa/AAA/AAA,21.5,Jefferies/Williams,Saber Partners,Environmental
+12/1/09,MP Environmental Funding LLC (Monongahela Power),WV,Aaa/AAA/AAA,64.4,Jefferies/Williams,Saber Partners,Environmental
+7/1/10,Louisiana Local Government Environmental Facilities and Community Development Authority (Louisiana Utilities Restoration Corporation Project/EGSL),LA,Aaa/AAA/AAA,244.1,Citi/JP,Pathfinder,Storm Recovery
+7/1/10,Louisiana Local Government Environmental Facilities and Community Development Authority (Louisiana Utilities Restoration Corporation Project/ELL),LA,Aaa/AAA/AAA,468.9,Citi/JP,Pathfinder,Storm Recovery
+8/1/10,"Entergy Arkansas Energy Restoration Funding, LLC",AK,Aaa(sf)/AAA(sf)/AAA(sf),124.1,MS,None,Storm Recovery
+9/1/11,"Entergy Louisiana Investment Recovery Funding I, LLC",LA,Aaa(sf)/AAA(sf)/AAA(sf),207.1,MS/Citi,Sisung Group,Stranded Costs
+1/1/12,"CenterPoint Energy Transition Bond Company IV, LLC",TX,Aaa(sf)/AAA(sf)/AAA(sf),1695,GS/Citi/MS,"First Southwest (Not full FA/""Pricing Advisor"" Only)",Stranded Costs
+3/1/12,AEP Texas Central Transition Funding III LLC,TX,Aaa(sf)/AAA(sf)/AAA(sf),800,MS/Bar/Citi,"First Southwest (Not full FA/""Pricing Advisor"" Only)",Stranded Costs
+6/1/13,FirstEnergy Ohio PIRB Special Purpose Trust 2013,OH,Aaa(sf)/AAA(sf)/AAA(sf),444.92,Citi/CAS/GS,First Southwest,Deferred Balances
+7/1/13,"Ohio Phase-In-Recovery Funding, LLC",OH,Aaa(sf)/AAA(sf)/AAA(sf),267.41,Citi/RBC,Oxford Advisors/PRAG,Deferred Balances
+11/1/13,Appalachian Consumer Rate Relief Funding LLC,WV,Aaa(sf)/AAA(sf)/AAA(sf),380.3,RBS/MS,PRAG,Deferred Balances
+7/1/14,"Consumers 2014 Securitization Funding, LLC",MI,Aaa(sf)/AAA(sf)/AAA(sf),378,Citi/GS,None,Stranded Costs
+8/1/14,Louisiana Local Government Environmental Facilities and Community Development Authority (Louisiana Utilities Restoration Corporation Project/ELL),LA,Aaa(sf)/AAA(sf)/AAA(sf),243.85,Citi,Sisung Group/Government Consultants,Storm Recovery
+8/1/14,Louisiana Local Governments Environmental Facilities Authority (Louisiana Utilities Restoration Corporation Project/EGSL),LA,Aaa(sf)/AAA(sf)/AAA(sf),71,Citi,Sisung Group/Government Consultants,Storm Recovery
+7/1/15,"Entergy New Orleans Storm Recovery Funding I, L.L.C.",LA,Aa1(sf)/AAA(sf),98.73,Citi,None,Storm Recovery
+6/1/16,"Duke Energy Florida Project Finance, LLC",FL,Aaa(sf)/AAA(sf)/AAA(sf),1294,RBC/Guggenheim,Saber Partners,Nuclear Plant Retirement
+5/1/18,PSNH Funding LLC 3 (Public Service Company of New Hampshire),NH,Aaa(sf)/AAA(sf)/AAA(sf),635.66,GS/Citi,None,Stranded Costs
+9/1/19,AEP Texas Restoration Funding LLC,TX,Aaa(sf)/AAA(sf),235.28,GS/Citi,Drexel Hamilton (Pricing only),Storm Recovery
+2/1/21,"SCE Recovery Funding, LLC (Southern California Edison)",CA,Aaa(sf)/AAA(sf)/AAA(sf),337.78,Bar/RBC,Ducera Partners,Wildfire Mitigation
+5/1/21,WEPCO Environmental Trust I (Wisconson Electric Power),WI,Aaa(sf)/AAA(sf)/AAA(sf),118.81,Bar,,Environmental Facilities
+12/1/22,Consumers Energy,MI,Pending,678,Citi,,Coal Plant Retirement
+12/1/22,Public Service of New Mexico,NM,Pending,327,,,Coal Plant Retirement
+12/1/22,Duke Energy Carolina,NC,Pending,237.21,,PFM (Commission) Saber (Public Staff),Storm Recovery
+12/1/22,Duke Energy Progress,NC,Pending,771.53,,PFM (Commission) Saber (Public Staff),Storm Recovery
+12/1/22,Pacific Gas & Electric,CA,Pending,7500,CIti,Ducera,Wildfire Damages
+12/1/22,SCE Recovery Funding LLC,CA,Pending,550,,,Wildfire Costs
+11/1/21,PG&E Recovery Funding LLC,CA,Aaa(sf)/AAA(sf),860.4,GS/Citi,Ducera,Wildfire

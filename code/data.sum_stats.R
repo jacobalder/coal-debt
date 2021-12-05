@@ -27,26 +27,17 @@ sec.none = sec[!securitization_policy=="Passed"&!securitization_policy=="Introdu
 sec.pass = sec[securitization_policy=="Passed"]
 sec.intr = sec[securitization_policy=="Introduced"]
 
-# Plot number of states with securitization policy
-gov = sec %>%
-  ggplot() + 
-  geom_bar(position='stack', stat='identity', 
-           aes(fill=governor_party, 
-               y=num, 
-               x=reorder(securitization_policy, securitization_policy, function(x)-length(x)))) + 
-  scale_fill_manual('Party', values=c(color_blind_palette[5], color_blind_palette[1])) + 
-  labs(x = "Securitization Policy", y = "No. of states",
-       title = "Governor party in states with securitization policy") +
-  coord_flip()
-leg = sec %>% 
-  ggplot() + 
-  geom_bar(position='stack', stat='identity', 
-           aes(fill=legislation_majority_party, 
-             y=num, 
-             x=reorder(securitization_policy, securitization_policy, function(x)-length(x)))) +
-  scale_fill_manual('Party', values=c(color_blind_palette[5], color_blind_palette[4], color_blind_palette[1])) + 
-  labs(x = "Securitization Policy", y = "No. of states",
-       title = "Legislative majority party in states with securitization policy") +
-  coord_flip()
-p = grid.arrange(gov,leg, nrow = 2)
-ggsave(file.path(my_dir,coal_debt,fig_path,paste0("p")),p,"png")
+# SABER BONDS
+saber_bonds = saber_bonds[,`:=`(date=as.Date(date,"%m/%d/%y"),
+                                year=format(as.Date(date,"%m/%d/%y"),"%Y"))
+                          ][,.SD[!all(is.na(date))],by=date
+                            ][,`:=`(year_group = cut(as.numeric(year),
+                                                     seq(1997,2022,5),include.lowest = T))]
+total_bonds = saber_bonds[,as.list(summary(size_mm,use_of_proceeds)),by=use_of_proceeds]
+total_bonds
+date_bonds = saber_bonds[,.N,by=.(use_of_proceeds,year)]
+date_bonds[year>2011&year<2017][order(year)]
+
+
+# Easy graphs (comes at end!)
+source(file.path(my_dir,coal_debt,code_path,"data.sum_stats.figs.R"))

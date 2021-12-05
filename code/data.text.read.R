@@ -8,9 +8,14 @@
 #               
 #               
 ################################################################################
-bill_path = file.path(my_dir,coal_debt,data_path,paste0("bills"))
+bill_path = file.path(my_dir,coal_debt,data_path,paste0("bills/securitization_current"))
 setwd(bill_path)
 bills.files = list.files(path = bill_path, pattern = "pdf", full.names = T)
+
+# lexis_path = file.path(my_dir,coal_debt,data_path,paste0("LEXIS"))
+# setwd(lexis_path)
+# bills.files = list.files(path = lexis_path, pattern = "pdf", full.names = T)
+
 
 # Corpus using library(tm)
 corp <- Corpus(URISource(bills.files),
@@ -33,7 +38,7 @@ findAssocs(bills.tdm, "secur", .85)
 findAssocs(bills.tdm, "public", .85)
 
 # Make a dendogram
-bills.tdm.d = removeSparseTerms(sparse = 0.00000000002, bills.tdm)
+bills.tdm.d = removeSparseTerms(sparse = .00185, bills.tdm)
 
 # Create tdm matrix
 bills.tdm.m <- as.matrix(bills.tdm.d)
@@ -46,19 +51,3 @@ hc <- hclust(bills.dist)
 
 # Plot the dendrogram
 plot(hc)
-
-
-## 
-# Create associations
-associations <- findAssocs(bills.tdm, "secur", 0.2)
-
-# View the venti associations
-associations
-
-# Create associations_df
-associations_df <- list_vect2df(associations, col2 = "word", col3 = "score")
-
-# Plot the associations_df values
-ggplot(associations_df, aes(score, word)) + 
-  geom_point(size = 3) + 
-  theme_gdocs()
