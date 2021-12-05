@@ -51,3 +51,4 @@ hc <- hclust(bills.dist)
 
 # Plot the dendrogram
 plot(hc)
+save(file.path(my_dir,coal_debt,fig_path,paste0("d")),d,"png")
