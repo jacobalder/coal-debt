@@ -8,6 +8,8 @@
 ################################################################################
 describeBy(state_utility_policies, group=state_utility_policies$securitization_policy)
 
+# RMI TRANSITION HUB ------------------------------------------------------
+
 # List of states that have introduced or passed securitization, with Leg Party
 sec = state_utility_policies[,.N, by = .(state,securitization_policy,
                                          legislation_majority_party,governor_party)
@@ -27,7 +29,8 @@ sec.none = sec[!securitization_policy=="Passed"&!securitization_policy=="Introdu
 sec.pass = sec[securitization_policy=="Passed"]
 sec.intr = sec[securitization_policy=="Introduced"]
 
-# SABER BONDS
+
+# SABER BONDS -------------------------------------------------------------
 saber_bonds = saber_bonds[,`:=`(date=as.Date(date,"%m/%d/%y"),
                                 year=format(as.Date(date,"%m/%d/%y"),"%Y"))
                           ][,.SD[!all(is.na(date))],by=date
@@ -38,6 +41,21 @@ total_bonds
 date_bonds = saber_bonds[,.N,by=.(use_of_proceeds,year)]
 date_bonds[year>2011&year<2017][order(year)]
 
+# For Tree map
+saber_tree = saber_bonds[,use := fifelse(use_of_proceeds=="Wildfire","Wildfire Costs",
+                          fifelse(use_of_proceeds=="Wildfire Damages","Wildfire Costs",
+                          fifelse(use_of_proceeds=="Wildfire Mitigation","Wildfire Costs",
+                          fifelse(use_of_proceeds=="Environmental","Environmental Costs",
+                          fifelse(use_of_proceeds=="Environmental Facilities","Environmental Costs",
+                          fifelse(use_of_proceeds=="Recovery","Storm Recovery",use_of_proceeds))))))]
+head(saber_tree)
 
+# EIA MONTHLY -------------------------------------------------------------
+ann_MER_T06_01[,`:=`(year_mon = as.yearmon(as.character(YYYYMM),"%Y%M"))][,year := as.year(year_mon)]
+head(ann_MER_T06_01)
+ann_MER_T06_01[, lapply(.SD, sum), .SDcols=c("Value"),by=.(year,Description)]
+# EIA ANNUAL --------------------------------------------------------------
+
+# MAKE GRAPHS -------------------------------------------------------------
 # Easy graphs (comes at end!)
 source(file.path(my_dir,coal_debt,code_path,"data.sum_stats.figs.R"))
